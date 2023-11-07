@@ -1910,3 +1910,11 @@ responsive
     font-weight: 700;
   }
 }
+.custom-icon {
+  width: 100px; /* Establece el ancho deseado */
+  height: 100px; /* Establece la altura deseada */
+}
+.custom-image{
+  width: 500px; /* Establece el ancho deseado */
+  height: 600px; /* Establece la altura deseada */
+}
