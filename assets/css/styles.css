@@ -1879,6 +1879,72 @@ responsive
     font-size: 36px;
     font-weight: bold;
   }
+
+  .card-bord{
+    width: 28rem; 
+    margin-top: 20px;
+  }
+
+  .card-bord .card-body .card-title{
+    font-size: 24px; 
+    color: #0032AF; 
+    font-weight: 700;
+  }
+  
+  .card-bord .card-body .card-text{
+    font-size: 18px;
+    line-height: normal;
+  }
+  
+  .card-bord .card-body .card-autor{
+    font-style: italic; 
+    font-size: 18px; 
+    margin-top: 10px;
+  }
+  
+  .card-bord .card-body .card-pclave{
+    font-size: 16px; 
+    color: #0032AF; 
+    font-weight: 500; 
+    margin-top: 5px;
+  }
+  
+  .card-bord .card-body a{
+    font-size: 24px; 
+    background-color: #0032AF; 
+    font-weight: 500; 
+    border-radius: 12px; 
+    margin-top: 20px;
+  }
+
+  .content-description .marg-content{
+    margin-top: 50px;  
+    padding: 50px; 
+    
+  }
+  
+  .content-description img{
+    width: 60%;
+  }
+  
+  .content-description p{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .select-option{
+    width: 200px;
+    margin-left: auto;
+  }
+  
+  .select-option .form-select{
+    border-radius: 12px;
+    border-color: #B2B9CC;
+    font-size: 18px;
+    width: 100%;
+    text-align: center
+  }
 }
 
 @media  screen and (min-width: 767px) and (max-width: 1023px) { /* For tablet */
@@ -1890,6 +1956,72 @@ responsive
   .title-txt h2{
     font-size: 36px;
     font-weight: bold;
+  }
+
+  .card-bord{
+    width: 28rem; 
+    margin-top: 20px;
+  }
+
+  .card-bord .card-body .card-title{
+    font-size: 24px; 
+    color: #0032AF; 
+    font-weight: 700;
+  }
+  
+  .card-bord .card-body .card-text{
+    font-size: 18px;
+    line-height: normal;
+  }
+  
+  .card-bord .card-body .card-autor{
+    font-style: italic; 
+    font-size: 18px; 
+    margin-top: 10px;
+  }
+  
+  .card-bord .card-body .card-pclave{
+    font-size: 16px; 
+    color: #0032AF; 
+    font-weight: 500; 
+    margin-top: 5px;
+  }
+  
+  .card-bord .card-body a{
+    font-size: 18px; 
+    background-color: #0032AF; 
+    font-weight: 500; 
+    border-radius: 12px; 
+    margin-top: 20px;
+  }
+
+  .content-description .marg-content{
+    margin-top: 50px;  
+    padding: 50px; 
+    
+  }
+  
+  .content-description img{
+    width: 90%;
+  }
+  
+  .content-description p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .select-option{
+    width: 200px;
+    margin-left: auto;
+  }
+  
+  .select-option .form-select{
+    border-radius: 12px;
+    border-color: #B2B9CC;
+    font-size: 18px;
+    width: 100%;
+    text-align: center
   }
 
 }
@@ -1909,7 +2041,75 @@ responsive
     font-size: 22px;
     font-weight: 700;
   }
+
+  .card-bord{
+    width: 16rem;
+    margin-top: 30px;
+  }
+
+  .card-bord .card-body .card-title{
+    font-size: 20px; 
+    color: #0032AF; 
+    font-weight: 700;
+  }
+  
+  .card-bord .card-body .card-text{
+    font-size: 14px;
+    line-height: normal;
+  }
+  
+  .card-bord .card-body .card-autor{
+    font-style: italic; 
+    font-size: 14px; 
+    margin-top: 10px;
+  }
+  
+  .card-bord .card-body .card-pclave{
+    font-size: 13px; 
+    color: #0032AF; 
+    font-weight: 500; 
+    margin-top: 5px;
+  }
+  
+  .card-bord .card-body a{
+    font-size: 20px; 
+    background-color: #0032AF; 
+    font-weight: 500; 
+    border-radius: 12px; 
+    margin-top: 20px;
+  }
+
+  .content-description .marg-content{
+    margin-top: 50px;  
+    padding: 30px; 
+  }
+  
+  .content-description img{
+    width: 60%;
+  }
+  
+  .content-description p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20px;
+  }
+
+  .select-option{
+    width: 100px;
+    margin-left: auto;
+  }
+  
+  .select-option .form-select{
+    border-radius: 12px;
+    border-color: #B2B9CC;
+    font-size: 16px;
+    width: 100%;
+    text-align: center
+  }
 }
+
+
 .custom-icon {
   width: 100px; /* Establece el ancho deseado */
   height: 100px; /* Establece la altura deseada */
@@ -1918,3 +2118,36 @@ responsive
   width: 500px; /* Establece el ancho deseado */
   height: 600px; /* Establece la altura deseada */
 }
+
+
+/* ESTILOS BLOG  */
+
+
+
+.card-bord{
+  border-radius: 12px;
+  box-shadow: 0px 4px 8px 3px #B2B9CC;
+}
+
+.card-bord .control-video{
+  position: relative; 
+  overflow: hidden; 
+  padding-top: 56.25%;
+}
+
+.card-bord .control-video iframe{
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%;
+}
+
+.card-bord .card-body a:hover{
+  background-color: #1149d6;
+}
+
+.content-description{
+  background-color: #e5edff;
+}
+
