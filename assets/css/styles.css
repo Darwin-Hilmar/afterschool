@@ -53,6 +53,8 @@ header, nav, section, article, aside, footer, hgroup {
 html, body {
   font-family: 'Nunito', sans-serif;
   font-weight: 400;
+  font-style: normal;
+  line-height: normal;
   background-color: #fff;
   font-size: 16px;
   -ms-text-size-adjust: 100%;
@@ -884,7 +886,7 @@ menu
 .card {
   margin: 0 auto;
   max-width: 100%;
-  min-height: 400px;
+  /* min-height: 400px; */
   overflow: hidden;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1950,6 +1952,39 @@ responsive
     border-top-left-radius: 30px; 
     border-bottom-left-radius: 30px;
   }
+
+  .blog-item .cont-content .down-content p,
+  .card-blog p{
+    margin: 15px;
+  }
+
+  .blog-item .cont-content .down-content .text-fecha,
+  .card-blog .text-fecha{
+    color: #0032AF;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .blog-item .cont-content .down-content .text-titulo,
+  .card-blog .text-titulo{
+    color: #0032AF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+  }
+
+  .blog-item .cont-content .down-content .text-descripcion,
+  .card-blog .text-descripcion{
+    font-size: 18px;
+    font-style: normal;
+  }
+
+  .blog-item .cont-content .down-content .text-autor,
+  .card-blog .text-autor{
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 300;
+  }
 }
 
 @media  screen and (min-width: 767px) and (max-width: 1023px) { /* For tablet */
@@ -2046,6 +2081,41 @@ responsive
     border-bottom-left-radius: 30px;
   }
 
+
+  .blog-item .cont-content .down-content p,
+  .card-blog p{
+    margin: 15px;
+  }
+
+  .blog-item .cont-content .down-content .text-fecha,
+  .card-blog .text-fecha{
+    color: #0032AF;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .blog-item .cont-content .down-content .text-titulo,
+  .card-blog .text-titulo{
+    color: #0032AF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+  }
+
+  .blog-item .cont-content .down-content .text-descripcion,
+  .card-blog .text-descripcion{
+    font-size: 14px;
+    font-style: normal;
+    line-height: normal;
+  }
+
+  .blog-item .cont-content .down-content .text-autor,
+  .card-blog .text-autor{
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: normal;
+  }
 }
 
 @media  screen and (max-width: 767px) { /* For smartphone */
@@ -2157,6 +2227,42 @@ responsive
     justify-content: center;
     overflow: hidden; */
   }
+
+  .blog-item .cont-content .down-content p,
+  .card-blog p{
+    margin: 5px;
+  }
+
+  .blog-item .cont-content .down-content .text-fecha,
+  .card-blog .text-fecha{
+    color: #0032AF;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .blog-item .cont-content .down-content .text-titulo,
+  .card-blog .text-titulo{
+    color: #0032AF;
+    font-size: 18px;
+    /* font-style: normal; */
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .blog-item .cont-content .down-content .text-descripcion,
+  .card-blog .text-descripcion{
+    font-size: 12px;
+    font-style: normal;
+    line-height: normal;
+  }
+
+  .blog-item .cont-content .down-content .text-autor,
+  .card-blog .text-autor{
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 300;
+  }
 }
 
 
@@ -2200,4 +2306,62 @@ responsive
 .content-description{
   background-color: #e5edff;
 }
+
+
+/* BLOG STYLES */
+
+.card-blog{
+  border-radius: 15px;
+  background: #FFF;
+  box-shadow: 0px 4px 6px 2px rgba(0, 50, 175, 0.25);
+}
+
+.blog-first{
+  width: 45rem; 
+  float: left;
+}
+
+.blog-item{
+  border-radius: 12px;
+  background: #FFF;
+  box-shadow: 0px 4px 6px 2px rgba(0, 50, 175, 0.25);
+  /* margin-bottom: 20px; */
+  flex-wrap: wrap;
+  }
+
+.blog-item .cont-content{
+  position: relative; 
+  width: 60%; 
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog-item .down-content{
+  justify-content: center;
+  align-items: center;
+}
+
+.blog-item .thumb{
+  width: 35%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  overflow: hidden;
+}
+
+.blog-item .thumb img{
+  width: 100%;
+  /* position: relative;  */
+  height: auto;
+  object-fit: cover;
+  display: block;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+
+
 
