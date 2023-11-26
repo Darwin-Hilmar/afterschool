@@ -1667,6 +1667,12 @@ responsive
   padding-bottom: 50px;
 }
 
+.section-tam-programas{
+  /* padding-top: 10px; */
+  padding-bottom: 50px;
+}
+
+
 .title-txt{
   color: rgb(0, 50, 175);
   margin: 15px;
@@ -1736,24 +1742,11 @@ responsive
     align-items: center;
 }
 
-
-/* .txt-directora{
-  text-align: justify;
-  color: rgb(0, 50, 175);
-  margin: 10px;
-  align-items: center;
-  justify-content: center;
-} */
-
-
 .right-size{
   margin-right: 25px;
   /* position: relative;
   display: inline-block; */
 }
-
-
-
 
 .texto-superpuesto {
   position: absolute;
@@ -1813,21 +1806,19 @@ responsive
   margin: 10px;
 }
 
-.mg-pd .content-text p{
-  margin: 10px;
-}
-
-
-.image-nosotros{
-  /* background-color: rgb(0, 177, 64); */
-  /* padding-bottom: 10px; */
-}
-
 .carrusel{
   display: flex;
   overflow-x: hidden;
   overflow-y: hidden;
   align-items: center;
+  /* height: 100vh; */
+}
+
+.carrusel-pro{
+  /* display: flex; */
+  overflow-x: hidden;
+  overflow-y: hidden;
+  /* align-items: center; */
   /* height: 100vh; */
 }
 
@@ -1985,6 +1976,39 @@ responsive
     font-style: italic;
     font-weight: 300;
   }
+
+  .carrusel-testimonios .container,
+  .def-section .container,
+  .def-sectionbg .container{
+    width: 80%;
+  }
+
+  .carrusel-testimonios p{
+    font-size: 24px;
+    line-height: normal;
+  }
+  
+  .carrusel-testimonios .text-italic{
+    font-style: italic;
+    font-size: 20px;
+    margin: 10px;
+  }
+  
+  .mg-pd .content-text p{
+    margin: 10px;
+    font-size: 30px;
+    line-height: normal;
+  }
+
+  .image-title {
+    font-size: 75px;
+  }
+
+  .enf-texto-pro p{
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
 }
 
 @media  screen and (min-width: 767px) and (max-width: 1023px) { /* For tablet */
@@ -2116,6 +2140,39 @@ responsive
     font-weight: 300;
     line-height: normal;
   }
+
+  .carrusel-testimonios .container,
+  .def-section .container,
+  .def-sectionbg .container{
+    width: 70%;
+  }
+  
+  .carrusel-testimonios p{
+    font-size: 22px;
+    line-height: normal;
+  }
+  
+  .carrusel-testimonios .text-italic{
+    font-style: italic;
+    font-size: 18px;
+    margin: 8px;
+  }
+  
+  .mg-pd .content-text p{
+    margin: 10px;
+    font-size: 26px;
+    line-height: normal;
+  }
+
+  .image-title {
+    font-size: 60px;
+  }
+
+  .enf-texto-pro p{
+    font-size: 20px;
+    font-weight: 500;
+  }
+
 }
 
 @media  screen and (max-width: 767px) { /* For smartphone */
@@ -2202,30 +2259,13 @@ responsive
 
   .header-area .main-nav .nav {
     float: none;
-    /* padding: 10px;
-    margin-top: 20px;
-    margin-right: 0px; */
     border-radius: 12px;
     background-color: #0032AF;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
-    /* position: relative; */
     z-index: 999;
-    /* border-top-left-radius: 30px; 
-    border-bottom-left-radius: 30px;  */
-    /* float: none;
-    z-index: 9;
-    left: 0;
-    right: 0;
-    top: 90px;
-    bottom: 90%;
-    width: 100%;
-    height: 100%;
-    flex-direction: column;
-    justify-content: center;
-    overflow: hidden; */
   }
 
   .blog-item .cont-content .down-content p,
@@ -2245,7 +2285,6 @@ responsive
   .card-blog .text-titulo{
     color: #0032AF;
     font-size: 18px;
-    /* font-style: normal; */
     font-weight: 700;
     line-height: normal;
   }
@@ -2263,23 +2302,62 @@ responsive
     font-style: italic;
     font-weight: 300;
   }
+
+  .carrusel-testimonios .container,
+  .def-section .container,
+  .def-section .container-lg,
+  .def-sectionbg .container-lg  {
+    width: 100%;
+  }
+
+  .carrusel-testimonios p{
+    font-size: 18px;
+    line-height: normal;
+  }
+  
+  .carrusel-testimonios .text-italic{
+    font-style: italic;
+    font-size: 16px;
+    margin: 8px;
+  }
+  
+  .mg-pd .content-text p{
+    margin: 10px;
+    font-size: 20px;
+    line-height: normal;
+  }
+
+  .image-title {
+    font-size: 40px;
+  }
+
+  .enf-texto-pro p{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: normal;
+  }
 }
 
 
-.custom-icon {
-  width: 100px; /* Establece el ancho deseado */
-  height: 100px; /* Establece la altura deseada */
+/* ESTILOS ALIANZAS */
+.alianzas-st{
+  width: 50%;
 }
-.custom-image{
-  width: 500px; /* Establece el ancho deseado */
-  height: 600px; /* Establece la altura deseada */
+
+.alianzas-st .circle-alianza{
+  width: 150px; 
+  height: 150px;
+  border-radius: 50%;
+  background-color: #FFF;
+  display: block;
+}
+
+.alianzas-st img{
+  width: 100%;
 }
 
 
 /* ESTILOS BLOG  */
-
-
-
 .card-bord{
   border-radius: 12px;
   box-shadow: 0px 4px 8px 3px #B2B9CC;
@@ -2362,6 +2440,101 @@ responsive
   border-bottom-left-radius: 15px;
 }
 
+/* INDEX ESTUDIANTES, EDUCADORES Y FAMILIAS */
+.image-container {
+  position: relative;
+  display: inline-block; 
+  background: linear-gradient(180deg, rgba(20, 35, 71, 0.00) 0%, rgba(20, 35, 71, 0.60) 61.98%);
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(180deg, rgba(20, 35, 71, 0.00) 0%, rgba(20, 35, 71, 0.60) 61.98%);
+}
+.image-container img {
+  width: 100%;
+  /* display: block; */
+}
+
+.image-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 700;
+  padding: 10px;
+  color: #fff;
+  text-align: center; 
+}
+
+.def-section{
+  background-image: url(../images/bg-programas.png);
+}
+
+.def-sectionbg{
+  background-color: #e5edff;
+}
 
 
+.enf-texto-pro{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
 
+.card-programas{
+  width: 25rem;
+  margin: 20px;
+  border-radius: 12px;
+  border: 1px solid #0032AF;
+  background: #FFF;
+}
+
+
+.carrusel-programas .card-body .card-title{
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.carrusel-programas .card-body .card-text{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.carrusel-programas .card-body a{
+  font-size: 24px; 
+  background-color: #0032AF; 
+  font-weight: 500; 
+  border-radius: 12px; 
+  margin-top: 20px;
+}
+
+/* CONTACTO STYLE */
+.contactForm{
+  border-radius: 24px;
+  background: #E5EDFF;
+  box-shadow: -4px 4px 6px 0px rgba(0, 50, 175, 0.25);
+}
+
+.contactForm h2{
+  color: #0032AF;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 15px;
+}
+
+.contactForm button{
+  background-color: #0032AF;
+  font-size: 24px;
+  font-weight: 500;
+  border-radius: 20px;
+  padding: 6px 30px;
+}
