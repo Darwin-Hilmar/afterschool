@@ -15,7 +15,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/> 
 
     <script src="https://kit.fontawesome.com/ded965e364.js" crossorigin="anonymous"></script>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Enlaces a Bootstrap 5 CSS y JavaScript -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
     <title>After School</title>
 <!--
@@ -58,10 +60,13 @@
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
-                            <li class="scroll-to-section"><a href="nosotros.html">Nosotros</a></li>
+                            <li class="scroll-to-section"><a href="index.html">Nosotros</a></li>
                             <li class="scroll-to-section"><a href="cursos.html">Cursos</a></li>
-                            <li class="scroll-to-section"><a href="contacto.html">Contáctanos</a></li> 
-                            <li class="scroll-to-section right-size"><a href="blog.html">Blog</a></li> 
+                            <li class="scroll-to-section">
+                                <a href="#contacto" class="d-none d-md-block">Contáctanos</a>
+                                <a href="#" id="btn-open-contacto" class="d-block d-md-none">Contáctanos</a>
+                            </li> 
+                            <li class="scroll-to-section right-size"><a href="blogs.html">Blog</a></li> 
                         </ul>        
                         <a class='menu-trigger'>
                             <span>Menu</span>
@@ -70,6 +75,43 @@
                     </nav>
                 </div>
             </div>
+
+            <dialog id="modalContacto" class="contactForm"> 
+                <div class="container-fluid">
+                    <form id="contact-citad" action="/" method="post">   
+                        <div class="d-flex justify-content-between">
+                            <h2>Contáctanos</h2>
+                            <button type="button" class="btn-close" id="btn-close-contacto" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="nombreForm" placeholder="Nombre">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="emailFrom" placeholder="Correo Electrónico">
+                        </div>
+                        <div class="mb-3">
+                            <select id="motivoForm" class="form-control">
+                                <option value="" disabled selected>Selecciona un motivo</option>
+                                <option value="opcion1">Opción 1</option>
+                                <option value="opcion2">Opción 2</option>
+                                <option value="opcion3">Opción 3</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <textarea name="mensaje" class="form-control" id="mensajeForm" cols="30" rows="5" placeholder="Mensaje"></textarea>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Autorizo Recibir mensajes y notificaciones por correo</label>
+                        </div>
+                        <div class="btn-enviar text-end text-right">
+                            <button type="submit" class="btn btn-primary">Enviar</button>     
+                        </div>
+                    </form>
+                </div>
+            </dialog>
+
+
         </div>
     </header>
     <!-- ***** Header Area End ***** -->
@@ -435,9 +477,6 @@
         <div class="container-fluid size_nst">
             <div class="row">
                 <div class="col-md-7 d-flex align-items-center justify-content-center">
-                    <!-- <div class="title-txt">
-                        <h2>¿Quiénes somos?</h2>
-                    </div> -->
                     <div class="content-text">
                         <p>
                             Somos un centro de talleres y asesoría pedagógica centrado en el estudiante y el desarrollo del pensamiento mediante el juego. 
@@ -505,7 +544,7 @@
                         <h5 class="card-title">Tutorías (ESP/EN)</h5>
                         <p class="card-text">
                         Espacios personalizados para atención a la neurodiversidad, donde el juego es la herramienta perfecta para el aprendizaje.
-                        </p>
+                        </p><br><br><br><br><br><br>
                         <a href="#" class="btn btn-primary form-control">Me interesa</a>
                     </div>
                 </div>
@@ -524,7 +563,7 @@
                         <h5 class="card-title">Orientación vocacional</h5>
                         <p class="card-text">
                             Orientación, evaluación e informe específico de la carrera, opciones de estudios dentro y fuera del país; así como oportunidades de beca para estudiantes de 4to o 5to de secundaria; como aquellos de o primeros ciclos que quieran hacer un cambio en su elección.
-                        </p>
+                        </p><br>
                         <a href="#" class="btn btn-primary form-control">Me interesa</a>
                     </div>
                 </div>
@@ -573,7 +612,7 @@
                         <h5 class="card-title">Acompañamiento paar niños y niñas con TDAH</h5>
                         <p class="card-text">
                             Grupo de profesionales a cargo del espacio para acompañar a la familia en nuevos hábitos de convivencia, transmitir el mensaje al menor o adulto y/o reforzar lazos familiares luego de conocer un diagnóstico de neuro divergencia.
-                        </p>
+                        </p><br><br>
                         <a href="#" class="btn btn-primary form-control">Me interesa</a>
                     </div>
                 </div>
@@ -792,7 +831,7 @@
         </div>
     </section>
     
-    <section class="section-tam">
+    <section class="section-tam" id="contacto">
         <div class="container-fluid size_nst">
             <div class="row">
                 <div class="col-md-6 d-flex align-items-center justify-content-center">
@@ -800,11 +839,44 @@
                         <img src="assets/images/contacto.png" width="70%" alt="Imagen">
                     </div>
                 </div>
-                <div class="col-md-6 d-flex align-items-center justify-content-center">
-                    <div class="text-center contactForm">
-                        <button type="submit" class="btn btn-primary">Contactar</button>  
+                <div class="col-md-6 d-none d-md-block">
+                    <div class="container bg_equipo contactForm p-5">
+                        <form>
+                            <h2>Contáctanos</h2>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" id="nombreForm" placeholder="Nombre">
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" id="emailFrom" placeholder="Correo Electrónico">
+                            </div>
+                            <div class="mb-3">
+                                <select id="motivoForm" class="form-control">
+                                    <option value="" disabled selected>Selecciona un motivo</option>
+                                    <option value="opcion1">Opción 1</option>
+                                    <option value="opcion2">Opción 2</option>
+                                    <option value="opcion3">Opción 3</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <textarea name="mensaje" class="form-control" id="mensajeForm" cols="30" rows="5" placeholder="Mensaje"></textarea>
+                            </div>
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Autorizo Recibir mensajes y notificaciones por correo</label>
+                            </div>
+                            <div class="text-end text-right">
+                                <button type="submit" class="btn-enviar btn btn-primary">Enviar</button>     
+                            </div>
+                        </form>
+                    </div>
+                </div> 
+                
+                <div class="col-md-6 d-flex align-items-center justify-content-center d-block d-md-none">
+                    <div class="text-center">
+                        <button type="submit" class="btn-contacto btn btn-primary">Contactar</button>  
                     </div>
                 </div>
+                
             </div>
         </div>
     </section>
@@ -858,6 +930,7 @@
     <script src="assets/js/slick.js"></script> 
     <script src="assets/js/lightbox.js"></script> 
     <script src="assets/js/isotope.js"></script> 
+    <script src="assets/js/main.js"></script> 
     
     <!-- Global Init -->
     <script src="assets/js/custom.js"></script>
