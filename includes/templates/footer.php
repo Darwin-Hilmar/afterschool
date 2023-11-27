@@ -31,31 +31,32 @@
     </footer>
 
     <!-- jQuery -->
-    <script src="assets/js/jquery-2.1.0.min.js"></script>
+    <script src="/assets/js/jquery-2.1.0.min.js"></script>
 
-    <!-- Bootstrap -->
-    <script src="assets/js/popper.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Bootstra/p -->
+    <script src="/assets/js/popper.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
 
-    <!-- Plugins -->
-    <script src="assets/js/owl-carousel.js"></script>
-    <script src="assets/js/accordions.js"></script>
-    <script src="assets/js/datepicker.js"></script>
-    <script src="assets/js/scrollreveal.min.js"></script>
-    <script src="assets/js/waypoints.min.js"></script>
-    <script src="assets/js/jquery.counterup.min.js"></script>
-    <script src="assets/js/imgfix.min.js"></script> 
-    <script src="assets/js/slick.js"></script> 
-    <script src="assets/js/lightbox.js"></script> 
-    <script src="assets/js/isotope.js"></script> 
-    <script src="assets/js/main.js"></script> 
+    <!-- Plugins /-->
+    <script src="/assets/js/owl-carousel.js"></script>
+    <script src="/assets/js/accordions.js"></script>
+    <script src="/assets/js/datepicker.js"></script>
+    <script src="/assets/js/scrollreveal.min.js"></script>
+    <script src="/assets/js/waypoints.min.js"></script>
+    <script src="/assets/js/jquery.counterup.min.js"></script>
+    <script src="/assets/js/imgfix.min.js"></script> 
+    <script src="/assets/js/slick.js"></script> 
+    <script src="/assets/js/lightbox.js"></script> 
+    <script src="/assets/js/isotope.js"></script> 
+    <script src="/assets/js/main.js"></script> 
+    <script src="/assets/js/sweetalert2.min.js"></script> 
     
-    <!-- Global Init -->
-    <script src="assets/js/custom.js"></script>
-    <script src="assets/js/swiper-bundle-min.js"></script>
+    <!-- Global I/nit -->
+    <script src="/assets/js/custom.js"></script>
+    <script src="/assets/js/swiper-bundle-min.js"></script>
 
-    <script src="/node_modules/sweetalert2/dist/sweetalert2.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- <script src="/node_modules/sweetalert2/dist/sweetalert2.min.js"></script> -->
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
   </body>

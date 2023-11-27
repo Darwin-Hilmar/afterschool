@@ -1580,10 +1580,14 @@ responsive
     font-weight: 500;
   }
   
-  #modalContacto{
+  #modalContacto,
+  #modalContactoEnd{
     width: 50%;
-    /* max-width: 600px; */
     max-height: 550px;
+  }
+
+  .alianzas-st{
+    width: 50%;
   }
 
 }
@@ -1750,10 +1754,14 @@ responsive
     font-weight: 500;
   }
 
-  #modalContacto{
+  #modalContacto,
+  #modalContactoEnd{
     width: 50%;
-    /* max-width: 600px; */
     max-height: 550px;
+  }
+
+  .alianzas-st{
+    width: 50%;
   }
 
 }
@@ -1920,18 +1928,20 @@ responsive
     line-height: normal;
   }
 
-  #modalContacto {
+  #modalContacto,
+  #modalContactoEnd {
     width: 90%;
     max-height: 85%;
     max-width: none;
+  }
+
+  .alianzas-st{
+    width: 80%;
   }
 }
 
 
 /* ESTILOS ALIANZAS */
-.alianzas-st{
-  width: 50%;
-}
 
 .alianzas-st .circle-alianza{
   width: 150px;
@@ -2108,7 +2118,8 @@ responsive
 
 /* CONTACTO STYLE */
 .contactForm,
-#modalContacto{
+#modalContacto,
+#modalContactEnd{
   border-radius: 24px;
   background: #E5EDFF;
   box-shadow: -4px 4px 6px 0px rgba(0, 50, 175, 0.25);
@@ -2124,7 +2135,6 @@ responsive
   padding-bottom: 15px;
 }
 
-.contactForm .btn-enviar button,
 .btn-contacto{
   background-color: #0032AF;
   font-size: 24px;
@@ -2146,12 +2156,14 @@ responsive
 }
 
 /* MODAL CONTACTO */
-#modalContacto{ 
+#modalContacto,
+#modalContactoEnd{ 
   border: 1px solid #ccc;
 }
 
 
-#modalContacto::backdrop{
+#modalContacto::backdrop,
+#modalContactoEnd::backdrop{
   background-color: rgba(0,0,0,0.55);
 }
 

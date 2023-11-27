@@ -2,9 +2,16 @@ const modalContacto = document.querySelector("#modalContacto");
 const btnOpenModal = document.querySelector("#btn-open-contacto");
 const btnCloseModal = document.querySelector("#btn-close-contacto");
 
+const modalContactoEnd = document.querySelector("#modalContactoEnd");
+const btnOpenModalEnd = document.querySelector("#btn-open-contactoEnd");
+const btnCloseModalEnd = document.querySelector("#btn-close-contactoEnd");
+
 
 btnOpenModal.addEventListener('click',()=>{    modalContacto.showModal(); })
 btnCloseModal.addEventListener('click',()=>{   modalContacto.close(); })
+
+btnOpenModalEnd.addEventListener('click',()=>{    modalContactoEnd.showModal(); })
+btnCloseModalEnd.addEventListener('click',()=>{   modalContactoEnd.close(); })
 
 
 

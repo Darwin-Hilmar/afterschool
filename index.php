@@ -33,6 +33,8 @@
     <!-- CONTACTO -->
     <?php include 'includes/views/contacto.php'; ?>
 
+    <!-- MODALS -->
+    <?php include 'includes/views/modalContacto.php'; ?>
 
 <?php
     includeTemplate('footer');

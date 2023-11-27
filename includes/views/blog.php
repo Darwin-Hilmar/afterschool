@@ -1,9 +1,34 @@
-<section class="section-tam mt-5">
-    <div class="container-fluid size_nst blog-content mt-3">
-        <h2 class="text-center">Feria del libro de Lima</h2>
-        <h5 class="text-center style-italic">Por: María Rosario Cabanillas</h5>
-        <p class="mt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque assumenda nemo vitae! Ratione quidem eaque quibusdam quisquam at sint ad cupiditate reprehenderit veniam dolor! Aliquam nisi assumenda distinctio a! Odit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem obcaecati perferendis fugit reprehenderit eos culpa impedit, qui ad hic, odio voluptas temporibus, ullam dicta alias rerum quod iure ex repellat!. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam repellat consequatur quibusdam omnis similique delectus ipsa ipsam error culpa, dicta nulla, aut voluptates sit mollitia quo optio hic quae quis?. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius totam explicabo laborum a sint temporibus provident aut optio, aspernatur recusandae commodi iure voluptatum harum delectus magni vel fugiat culpa fuga!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum illo placeat dicta fuga, magni possimus sequi. Magni impedit distinctio architecto! Dolorem blanditiis saepe corrupti consectetur perferendis, distinctio consequuntur minima qui!. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio provident consequatur velit repudiandae fuga, ullam praesentium voluptatum possimus adipisci dolor temporibus quia sint dicta doloremque voluptatem neque blanditiis saepe quidem.. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut doloribus in odit harum, reiciendis ullam numquam eius magnam optio voluptatum cum totam laboriosam delectus accusamus obcaecati a mollitia sed omnis.</p>
-        <div class="image-blog d-flex justify-content-center align-items-center mt-4">
-            <img src="assets/images/blogOne.png" class="rounded-4" width="100%" alt="Blog After School">
-        </div>
-</section>
+<dialog id="modalContacto" class="contactForm"> 
+    <div class="container-fluid">
+        <form id="contact-citad" action="/" method="post">   
+            <div class="d-flex justify-content-between">
+                <h2>Contáctanos</h2>
+                <button type="button" class="btn-close" id="btn-close-contacto" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="mb-3">
+                <input type="text" class="form-control" id="nombreForm" placeholder="Nombre">
+            </div>
+            <div class="mb-3">
+                <input type="email" class="form-control" id="emailFrom" placeholder="Correo Electrónico">
+            </div>
+            <div class="mb-3">
+                <select id="motivoForm" class="form-control">
+                    <option value="" disabled selected>Selecciona un motivo</option>
+                    <option value="opcion1">Opción 1</option>
+                    <option value="opcion2">Opción 2</option>
+                    <option value="opcion3">Opción 3</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <textarea name="mensaje" class="form-control" id="mensajeForm" cols="30" rows="5" placeholder="Mensaje"></textarea>
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Autorizo Recibir mensajes y notificaciones por correo</label>
+            </div>
+            <div class="btn-enviar text-end text-right">
+                <button type="submit" class="btn btn-primary">Enviar</button>     
+            </div>
+        </form>
+    </div>
+</dialog>
