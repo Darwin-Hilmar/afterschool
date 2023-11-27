@@ -2168,3 +2168,11 @@ responsive
 .blog-content p{
   text-align: justify;
 }
+
+.card {
+  max-width: 100%; 
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}

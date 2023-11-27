@@ -1,0 +1,18 @@
+{
+    "name": "darwin/afterschool",
+    "description": "Proyecto After School",
+    "autoload": {
+        "psr-4": {
+            "App\\": "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "Darwin",
+            "email": "fpdh2022@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
