@@ -1,6 +1,6 @@
 <?php
     require 'includes/app.php';
-    includeTemplate('headerTip');
+    includeTemplate('header');
 ?>
 
     <!-- BLOGS -->

@@ -70,7 +70,7 @@ $(document).ready(function(){
 $(document).ready(function(){
     $('.carrusel-alianzas').slick({
         infinite: true,
-        slidesToShow: 2, 
+        slidesToShow: 3, 
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2000,
@@ -86,3 +86,5 @@ $(document).ready(function(){
         ]
     });
 });
+
+

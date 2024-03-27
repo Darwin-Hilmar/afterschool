@@ -2,14 +2,14 @@
     <div class="image-container">
         <div class="overlay"></div>
         <img src="assets/images/familias.png" alt="Imagen">
+        <!-- <img src="assets/images/talleres_para_padres_y_familias.jpg" alt=""> -->
         <h2 class="image-title">Familias</h2>
     </div>
 
     <div class="container-fluid size_nst">
         <div class="container enf-texto-pro">
             <p>
-                En cada una de nuestras sesiones atendemos y velamos por el avance cognitivo y emocional de los estudiantes, 
-                llevando a cada domicilio o espacio educativo estrategias de habilidades para hacer el pensamiento visible y poder intervenir en el proceso de enseñanza aprendizaje de manera exitosa.
+                Nuestros talleres están diseñados para fortalecer y promover la salud y la armonía dentro de las familias.
             </p>
         </div>
     </div>
@@ -27,8 +27,8 @@
             <div class="card card-programas">
                 <div class="card-body">
                     <h5 class="card-title">Mindfulness</h5>
-                    <p class="card-text">
-                        En cada una de nuestras sesiones atendemos y velamos por el avance cognitivo y emocional de los estudiantes, llevando a cada domicilio o espacio educativo estrategias de habilidades para hacer el pensamiento visible y poder intervenir en el proceso de enseñanza aprendizaje de manera exitosa.
+                    <p class="card-text" style="margin-bottom: 5px;">
+                    Dirigido a mamás y papás para un momento de desconexión, brindándoles un espacio dedicado a la atención plena, permitiendo cultivar la conciencia y encontrar equilibrio en medio de las actividades diarias. Está centrado en el autocuidado, gestión del estrés y la promoción de relaciones familiares saludables.
                     </p>
                     <a href="#" class="btn btn-primary form-control">Me interesa</a>
                 </div>
@@ -37,7 +37,7 @@
             <div class="card card-programas">
                 <div class="card-body">
                     <h5 class="card-title">Acompañamiento paar niños y niñas con TDAH</h5>
-                    <p class="card-text">
+                    <p class="card-text" style="margin-bottom: 5px;">
                         Grupo de profesionales a cargo del espacio para acompañar a la familia en nuevos hábitos de convivencia, transmitir el mensaje al menor o adulto y/o reforzar lazos familiares luego de conocer un diagnóstico de neuro divergencia.
                     </p><br><br>
                     <a href="#" class="btn btn-primary form-control">Me interesa</a>

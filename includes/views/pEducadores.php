@@ -9,8 +9,7 @@
     <div class="container-fluid size_nst">
         <div class="container enf-texto-pro">
             <p>
-                En cada una de nuestras sesiones atendemos y velamos por el avance cognitivo y emocional de los estudiantes, 
-                llevando a cada domicilio o espacio educativo estrategias de habilidades para hacer el pensamiento visible y poder intervenir en el proceso de enseñanza aprendizaje de manera exitosa.
+                Programas diseñados en busca de ofrecer una formación complementaria que potencien sus habilidades para promover un entorno educativo enriquecedor y eficaz.
             </p>
         </div>
     </div>
@@ -20,7 +19,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Rutinas de pensamiento</h5>
                     <p class="card-text">
-                        En cada una de nuestras sesiones atendemos y velamos por el avance cognitivo y emocional de los estudiantes, llevando a cada domicilio o espacio educativo estrategias de habilidades para hacer el pensamiento visible y poder intervenir en el proceso de enseñanza aprendizaje de manera exitosa.
+                        Descubriremos cómo puedes desbloquear el potencial de la mente de tus alumnos, a través de estrategias y pasos sencillos, aprenderás que desde las preguntas abiertas y afirmaciones pueden estimular diferentes formas de pensamiento y mejorar la comprensión en cualquier materia y nivel educativo. 
                     </p>
                     <a href="#" class="btn btn-primary form-control">Me interesa</a>
                 </div>
@@ -29,7 +28,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Design thinking</h5>
                     <p class="card-text">
-                        En cada una de nuestras sesiones atendemos y velamos por el avance cognitivo y emocional de los estudiantes, llevando a cada domicilio o espacio educativo estrategias de habilidades para hacer el pensamiento visible y poder intervenir en el proceso de enseñanza aprendizaje de manera exitosa.
+                        Aprenderemos a aplicar un enfoque centrado en los estudiantes para comenzar a diseñar nuevas ideas, proyectos, y aprendizajes a partir de sus necesidades, entorno y habilidades. Lograrás experiencias de aprendizaje significativas, además de resolver desafíos complejos desde una mirada más amplia y creativa.
                     </p>
                     <a href="#" class="btn btn-primary form-control">Me interesa</a>
                 </div>

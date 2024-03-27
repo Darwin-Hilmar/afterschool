@@ -57,13 +57,15 @@
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
-                            <li class="scroll-to-section"><a href="/">Nosotros</a></li>
-                            <li class="scroll-to-section"><a href="cursos.php">Cursos</a></li>
-                            <li class="scroll-to-section">
-                                <a href="#contacto" class="d-none d-md-block">Contáctanos</a>
-                                <a href="#" id="btn-open-contacto" class="d-block d-md-none">Contáctanos</a>
+                            <li class="scroll-to-section page-home"><a href="/">Nosotros</a></li>
+                            <li class="scroll-to-section page-cursos"><a href="cursos.php">Cursos</a></li>
+                            <li class="scroll-to-section page-contacto">
+                                <!-- <a href="#contacto" class="d-none d-md-block">Contáctanos</a>
+                                <a href="#" id="btn-open-contacto" class="d-block d-md-none">Contáctanos</a> -->
+
+                                <a href="#" id="btn-open-contacto">Contáctanos</a>
                             </li> 
-                            <li class="scroll-to-section right-size"><a href="blogs.php">Blog</a></li> 
+                            <li class="scroll-to-section right-size page-blog "><a href="blogs.php">Blog</a></li> 
                         </ul>        
                         <a class='menu-trigger'>
                             <span>Menu</span>

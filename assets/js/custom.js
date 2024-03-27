@@ -214,3 +214,38 @@
 
 
 })(window.jQuery);
+
+// CODIGO PARA EL MENU, CHANGE OF COLORS
+
+const pathName = window.location.pathname;
+const pageName = pathName.split("/").pop();
+
+if(pageName === "index.php" || pageName === ""){
+    document.querySelector(".page-home").classList.add("activeLink");
+}
+
+if(pageName === "cursos.php"){
+    document.querySelector(".page-cursos").classList.add("activeLink");
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+	var contactoLink = document.querySelector('.page-contacto a');
+  
+	if (contactoLink) {
+	  contactoLink.addEventListener('click', function(event) {
+		event.preventDefault(); 
+
+		var elementosConActiveLink = document.querySelectorAll('.activeLink');
+		elementosConActiveLink.forEach(function(elemento) {
+			elemento.classList.remove('activeLink');
+		});
+
+		document.querySelector(".page-contacto").classList.add("activeLink");
+	  });
+	}
+  });
+  
+
+if(pageName === "blog.php" || pageName === "blogs.php"){
+    document.querySelector(".page-blog").classList.add("activeLink");
+}

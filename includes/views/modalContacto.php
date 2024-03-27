@@ -14,9 +14,10 @@
             <div class="mb-3">
                 <select id="motivoForm" aria-reqired="true" aria-invalid="false" name="contacto[motivo]" class="form-control" required>
                     <option value="" disabled selected>Selecciona un motivo</option>
-                    <option value="opcion1">Opción 1</option>
-                    <option value="opcion2">Opción 2</option>
-                    <option value="opcion3">Opción 3</option>
+                    <option value="Estudiantes">Estudiantes</option>
+                    <option value="Educadores">Educadores</option>
+                    <option value="Familias">Familias</option>
+                    <option value="Otro">Otro</option>
                 </select>
             </div>
             <div class="mb-3">
@@ -49,9 +50,10 @@
             <div class="mb-3">
                 <select id="motivoForm" aria-reqired="true" aria-invalid="false" name="contacto[motivo]" class="form-control" required>
                     <option value="" disabled selected>Selecciona un motivo</option>
-                    <option value="opcion1">Opción 1</option>
-                    <option value="opcion2">Opción 2</option>
-                    <option value="opcion3">Opción 3</option>
+                    <option value="Estudiantes">Estudiantes</option>
+                    <option value="Educadores">Educadores</option>
+                    <option value="Familias">Familias</option>
+                    <option value="Otro">Otro</option>
                 </select>
             </div>
             <div class="mb-3">

@@ -20,9 +20,9 @@
                     <div class="right-text-content">
                         <p>SÍGUENOS</p>
                         <ul class="social-icons">
-                            <li><a href="#"><i class="fa-brands fa-tiktok"></i></a></li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="https://www.tiktok.com/@afterschoolsanborja" target="_blank"><i class="fa-brands fa-tiktok"></i></a></li>
+                            <li><a href="https://www.facebook.com/AfterSchoolSanBorja" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://www.instagram.com/afterschool_sanborja/" target="_blank"><i class="fa fa-instagram"></i></a></li>
                         </ul>
                     </div>
                 </div>

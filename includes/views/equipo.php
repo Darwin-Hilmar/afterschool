@@ -35,7 +35,7 @@
                             <p class="style-italic">“Teaching from the heart”</p>
                             <p class="style-italic"></p>
                             <p>
-                                Mi nombre es María y tengo 22 años, me considero alguien sociable y alegre. Disfruto mucho las actividades al aire libre, leer libros y compartir momentos en familia. Desde siempre supe que quería ser docente, dedicar mi tiempo a compartir mis conocimientos y recibir lo mismo por parte de mis estudiantes. Pertenecer a After me dio la oportunidad de crecer profesionalmente, compartir nuevas experiencias y darme un espacio ameno en crear lazos únicos con los estudiantes.
+                                Me considero alguien sociable y alegre. Siempre supe que quería ser docente, dedicar mi tiempo a compartir mis conocimientos y recibir lo mismo por parte de mis estudiantes. Pertenecer a After me dio la oportunidad de crecer profesionalmente, compartir nuevas experiencias y darme un espacio ameno en crear lazos únicos con los estudiantes.
                             </p>
                         </div>
                     </div>
@@ -51,11 +51,7 @@
                             <p class="style-italic">"La educación no cambia al mundo, cambia a las personas que van a cambiar al mundo"</p>
                             <p class="style-italic">-Paulo Freire</p>
                             <p>
-                                Soy una persona dinámica y cariñosa. Me gusta enseñar, brindar consejos, 
-                                creo en la capacidad de mis chicos y ayudo a potenciar sus habilidades. 
-                                Me siento muy feliz y agradecida por las oportunidades que brinda After 
-                                School, además del gran acompañamiento que tiene con los docentes y
-                                estudiantes. Es un espacio de entretenimiento, aprendizaje y libertad.
+                            Soy una persona apasionada y comprometida con inspirar y guiar a mis estudiantes en su camino de aprendizaje. Ser parte de After School es emocionante y gratificante. Me llena de alegría formar parte de este bonito grupo y de poder ayudar y acompañar a los chicos.
                             </p>
                         </div>
                     </div>

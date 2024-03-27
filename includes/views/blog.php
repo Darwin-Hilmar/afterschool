@@ -1,4 +1,14 @@
-<dialog id="modalContacto" class="contactForm"> 
+<?php
+
+    use App\Blog;
+
+    $id = validarORedireccionar('/');
+
+    $blog = Blog::find($id);
+    
+
+?>
+<!-- <dialog id="modalContacto" class="contactForm"> 
     <div class="container-fluid">
         <form id="contact-citad" action="/" method="post">   
             <div class="d-flex justify-content-between">
@@ -31,4 +41,14 @@
             </div>
         </form>
     </div>
-</dialog>
+</dialog> -->
+
+<section class="section-tam mt-5">
+    <div class="container-fluid size_nst blog-content mt-3">
+        <h2 class="text-center"><?php echo $blog->titulo ?></h2>
+        <h5 class="text-center style-italic"><?php echo $blog->autor ?></h5>
+        <p class="mt-4"><?php echo $blog->descripcion ?></p>
+        <div class="image-blog d-flex justify-content-center align-items-center mt-4">
+            <img src="<?php echo $blog->url; ?>" class="rounded-4" width="100%" alt="Blog After School">
+        </div>
+</section>

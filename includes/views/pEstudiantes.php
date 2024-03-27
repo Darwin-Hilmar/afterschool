@@ -17,12 +17,13 @@
             <div class="card card-programas">
                 <div class="card-body">
                     <h5 class="card-title">Tutorías (ESP/EN)</h5>
-                    <p class="card-text">
+                    <p class="card-text" style="margin-bottom: 120px;">
                     Espacios personalizados para atención a la neurodiversidad, donde el juego es la herramienta perfecta para el aprendizaje.
-                    </p><br><br><br><br><br><br>
+                    </p>
                     <a href="#" class="btn btn-primary form-control">Me interesa</a>
                 </div>
             </div>
+            
             <div class="card card-programas">
                 <div class="card-body">
                     <h5 class="card-title">Talleres de idiomas</h5>

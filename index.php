@@ -3,6 +3,7 @@
     require 'includes/app.php';
     includeTemplate('header');
 ?>
+
     <!-- CARRUSEL -->
     <?php include 'includes/views/carrusel.php'; ?>
 

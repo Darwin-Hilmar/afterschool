@@ -59,7 +59,7 @@
         <div class="row">
             <div class="col-md-6 d-flex align-items-center justify-content-center">
                 <div class="text-center mb-5">
-                    <img src="assets/images/contacto.png" width="70%" alt="Imagen">
+                    <img src="assets/images/contacto.png" width="80%" alt="Imagen">
                 </div>
             </div>
             <div class="col-md-6 d-none d-md-block">
@@ -76,9 +76,10 @@
                         <div class="mb-3">
                             <select id="motivoForm" aria-reqired="true" aria-invalid="false" name="contacto[motivo]" class="form-control" required>
                                 <option value="" disabled selected>Selecciona un motivo</option>
-                                <option value="opcion1">Opción 1</option>
-                                <option value="opcion2">Opción 2</option>
-                                <option value="opcion3">Opción 3</option>
+                                <option value="Estudiantes">Estudiantes</option>
+                                <option value="Educadores">Educadores</option>
+                                <option value="Familias">Familias</option>
+                                <option value="Otro">Otro</option>
                             </select>
                         </div>
                         <div class="mb-3">

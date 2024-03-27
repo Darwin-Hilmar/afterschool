@@ -634,7 +634,6 @@ banner
 .Modern-Slider .item .img-fill{
   height:100%;
   max-height: 700px;
-  background:#000;
 }
 
 .Modern-Slider .item .info > div{
@@ -1249,6 +1248,8 @@ responsive
 .section-tam{
   padding-top: 50px;
   padding-bottom: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .section-tam-nosotros{
@@ -1257,6 +1258,8 @@ responsive
 
 .section-tam-programas{
   padding-bottom: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 
@@ -1338,8 +1341,8 @@ responsive
   padding-bottom: 40px;
   text-align: left;
   color: white;
-  width: 100%;
-  max-width: 300px;
+  width: 60%;
+  max-width: 800px;
   box-sizing: border-box;
 }
 
@@ -1367,7 +1370,7 @@ responsive
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 700px;
   background: linear-gradient(180deg, rgba(0, 50, 175, 0.00) 0%, rgba(0, 31, 108, 0.85) 110.83%);
   z-index: 1;
 }
@@ -1407,6 +1410,11 @@ responsive
   margin: 10px;
   font-size: 25px;
   font-weight: 700;
+}
+
+.align-image-directora li{
+  color:#0032AF;
+  font-size: 1.3rem;
 }
 
 .txt-directora{
@@ -1938,6 +1946,22 @@ responsive
   .alianzas-st{
     width: 80%;
   }
+
+  .texto-superpuesto {
+    left: 20%;
+    text-align: center;
+  }
+
+  .texto-superpuesto h1 {
+    font-size: 32px;
+    margin-bottom: 5px;
+  }
+  
+  .texto-superpuesto p {
+    font-size: 20px;
+    margin: 0;
+    color: #fff;
+  }
 }
 
 
@@ -2188,3 +2212,43 @@ responsive
   background-repeat: no-repeat;
   overflow: hidden;
 }
+
+/* Estilos para pantallas grandes */
+@media (max-width: 767px) {
+  .desktop-img {
+      display: none; 
+  }
+  .mobile-img {
+      display: block; 
+  }
+  .image-show {
+      display: none !important; 
+  }
+  .image-hide {
+      display: block !important; 
+  }
+}
+
+/* Estilos para pantallas móviles */
+@media (min-width: 768px) {
+  .desktop-img {
+      display: block;
+  }
+  .mobile-img {
+      display: none;
+  }
+  .image-show {
+      display: block !important; 
+  }
+  .image-hide {
+      display: none !important; 
+  }
+}
+
+.header-area .main-nav .nav li.activeLink a {
+  color: rgb(0, 177, 64);
+} 
+
+/* .activeLink{
+  background-color: red;
+} */

@@ -7,7 +7,10 @@
             <div class="col-md-5 d-flex align-items-center justify-content-center">
                 <div class="align-image-directora">
                     <img src="assets/images/directora.webp" alt="Directora de After School">
-                    <h5>Rosario Cabanillas</h5>
+                    <div class="d-flex justify-content-center align-items-center">
+                        <h5>Rosario Cabanillas</h5>
+                        <a href="https://www.instagram.com/mariadelro.sario/" target="_blank"><li><i class="fa fa-instagram fa-lg"></i></li></a>
+                    </div>
                 </div>
             </div>
 
